@@ -1,11 +1,10 @@
-#"Geben Sie max. Punkte ein:Eingabe:Geben Sie erreichte Punkte ein:Erreichte Prozent:"
-"Enter max Points:You entered:Enter Points:percent achieved:"
+"Geben Sie max. Punkte ein:Eingabe:Geben Sie erreichte Punkte ein:Erreichte Prozent:"
 inc 12
 
 out 3 
 lit 0
-lit 17
-lit 18
+lit 25
+lit 26
 out 2
 
 la 0 50
@@ -14,9 +13,9 @@ in 0
 sto
 out 3
 
-lit 17
-lit 12
-lit 13
+lit 26
+lit 7
+lit 8
 out 2
 
 lv 0 50
@@ -24,9 +23,9 @@ lit 1
 out 0
 out 3
 
-lit 29
-lit 13
-lit 14
+lit 34
+lit 30
+lit 35
 out 2
 la 0 58
 la 0 62
@@ -42,12 +41,12 @@ div
 sto
 out 3
 
-lit 42
+lit 65
 lit 18
-lit 19
+lit 65
 out 2
 lv 0 66
 lit 1
 out 0
-out 3
+out 3 # Output far right
 halt
